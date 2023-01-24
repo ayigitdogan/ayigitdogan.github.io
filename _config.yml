@@ -46,7 +46,7 @@ social:
     - https://github.com/ayigitdogan    # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    https://www.linkedin.com/in/ayigitdogan
+    - https://www.linkedin.com/in/ayigitdogan
 
 google_site_verification:               # fill in to your verification string
 
