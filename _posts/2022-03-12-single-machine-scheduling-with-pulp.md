@@ -1,6 +1,5 @@
 ---
 title: Single Machine Scheduling Optimization with Pulp
-author: Ahmet Yiğit Doğan
 date: 2022-03-12 14:10:00 +0800
 categories: [Optimization]
 tags: [linear programming, scheduling, optimization, python]
