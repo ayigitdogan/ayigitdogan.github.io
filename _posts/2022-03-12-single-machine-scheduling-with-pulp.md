@@ -19,7 +19,7 @@ The below code is written to solve for 5 jobs, whose processing times and due da
 
 The code can be used for any number of jobs with custom parameters by modifying the related variables.
 
-For the LP formulations, further interpretations, and detailed outputs, please refer to the [GitHub repository](https://github.com/ayigitdogan/Single-Machine-Scheduling-with-PuLP) of this project.
+For the LP formulations, further interpretations, and detailed outputs, please refer to the [report](/assets/pdf/Report%20-%20Single%20Machine%20Scheduling%20with%20PuLP.pdf) of this project.
 
 
 ```python
@@ -32,6 +32,7 @@ import pandas   as pd                   # Will be used for a better representati
 ```
 
 ## Approach 1
+
 
 
 ```python
@@ -488,4 +489,5 @@ FinalTimeHorizonDf
 
 *Written by Ahmet Yiğit Doğan*  
 *IE 203 - Operations Research II*  
-*Boğaziçi University - Industrial Engineering Department*
+*Boğaziçi University - Industrial Engineering Department*  
+[GitHub Repository](https://github.com/ayigitdogan/Single-Machine-Scheduling-with-PuLP)
