@@ -1,5 +1,5 @@
 ---
-title: Single Machine Scheduling Optimization with Pulp
+title: Single Machine Scheduling Optimization with PuLP
 date: 2022-03-12 14:10:00 +0800
 categories: [Optimization]
 tags: [linear programming, optimization, scheduling, pulp, python]
