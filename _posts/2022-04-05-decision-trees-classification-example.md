@@ -1,5 +1,5 @@
 ---
-title: Decision Trees - Classification Excercise
+title: Decision Trees - Classification Example
 date: 2022-04-05 14:10:00 +0800
 categories: [Machine Learning]
 tags: [classification, r, tree based algorithms]
@@ -14,7 +14,7 @@ held. The output attribute to be predicted is the Financial.Distress
 attribute, which is zero if the company is in a healthy condition, one
 otherwise.
 
-One can check the [GitHub repository](https://github.com/ayigitdogan/Decision-Trees-Classification-Excercise)
+One can check the [GitHub repository](https://github.com/ayigitdogan/Decision-Trees-Classification-Example)
 for further details.
 
 The first step is importing the required libraries and the data set.
@@ -426,4 +426,4 @@ terminal nodes might lead the model to overfitting!
 *Written by Ahmet Yiğit Doğan*  
 *IE 425 - Data Mining*  
 *Boğaziçi University - Industrial Engineering Department*  
-[GitHub Repository](https://github.com/ayigitdogan/Decision-Trees-Classification-Excercise)
+[GitHub Repository](https://github.com/ayigitdogan/Decision-Trees-Classification-Example)
