@@ -50,7 +50,7 @@ names(percentages) <-     c("overall", "training", "test"    )
 knitr::kable(round(percentages, 3), "simple", col.names = "Distress %")
 ```
 
-<center>
+<div align="center">
 
 |          | Distress % |
 |----------|-----------:|
@@ -58,7 +58,7 @@ knitr::kable(round(percentages, 3), "simple", col.names = "Distress %")
 | training |      6.863 |
 | test     |      6.863 |
 
-</center>
+</div>
   
 <p style="text-align: center;"><em>Table 1. Percentage of companies in distress in the original and split data sets</em></p>
 
@@ -94,7 +94,7 @@ cpTable <- printcp(treeA)
 knitr::kable(cpTable, "simple", row.names = FALSE)
 ```
 
-<center>
+<div align="center">
 
 |        CP | nsplit | rel error |    xerror |      xstd |
 |----------:|-------:|----------:|----------:|----------:|
@@ -108,7 +108,7 @@ knitr::kable(cpTable, "simple", row.names = FALSE)
 | 0.0105820 |      9 | 0.6084656 | 0.9259259 | 0.0677331 |
 | 0.0100000 |     10 | 0.5978836 | 0.9523810 | 0.0686273 |
 
-</center>
+</div>
 
 <p style="text-align: center;"><em>Table 2. CP Table</em></p>
 
@@ -158,14 +158,14 @@ tblA     <- table(fdtest$Financial.Distress,
 knitr::kable(tblA, "simple", col.names = c("pred_0", "pred_1"))
 ```
 
-<center>
+<div align="center">
 
 |     | pred_0 | pred_1 |
 |-----|-------:|-------:|
 | 0   |    842 |     13 |
 | 1   |     37 |     26 |
 
-</center>
+</div>
 
 <p style="text-align: center;"><em>Table 3. Prediction results</em></p>
 
@@ -186,7 +186,7 @@ rownames(results) <- c('Accuracy', 'Sensitivity', "Specificity", "Precision")
 knitr::kable(round(results, 3)*100, "simple", col.names = "%")
 ```
 
-<center>
+<div align="center">
 
 |             |    % |
 |-------------|-----:|
@@ -195,7 +195,7 @@ knitr::kable(round(results, 3)*100, "simple", col.names = "%")
 | Specificity | 98.5 |
 | Precision   | 66.7 |
 
-</center>
+</div>
 
 <p style="text-align: center;"><em>Table 4. Prediction report</em></p>
 
@@ -237,14 +237,14 @@ tblB    <- table(fdtest$Financial.Distress, predB)
 knitr::kable(tblB, "simple", col.names = c("pred_0", "pred_1"))
 ```
 
-<center>
+<div align="center">
 
 |     | pred_0 | pred_1 |
 |-----|-------:|-------:|
 | 0   |    823 |     32 |
 | 1   |     39 |     24 |
 
-</center>
+</div>
 
 <p style="text-align: center;"><em>Table 5. Percentage of companies in distress in the original and split data sets (alternative pruning)</em></p>
 
@@ -263,7 +263,7 @@ results <- cbind(results, c(cmB[["overall"]][["Accuracy"]],
 knitr::kable(round(results, 3), "simple", col.names = c("Cross-Validation", "Cost Complexity"))
 ```
 
-<center>
+<div align="center">
 
 |             | Cross-Validation | Cost Complexity |
 |-------------|-----------------:|----------------:|
@@ -272,7 +272,7 @@ knitr::kable(round(results, 3), "simple", col.names = c("Cross-Validation", "Cos
 | Specificity |            0.985 |           0.963 |
 | Precision   |            0.667 |           0.429 |
 
-</center>
+</div>
 
 <p style="text-align: center;"><em>Table 6. Performance comparison of the two models</em></p>
 
