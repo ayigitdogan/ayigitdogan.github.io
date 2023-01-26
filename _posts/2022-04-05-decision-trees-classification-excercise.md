@@ -50,13 +50,17 @@ names(percentages) <-     c("overall", "training", "test"    )
 knitr::kable(round(percentages, 3), "simple", col.names = "Distress %")
 ```
 
+<center>
+
 |          | Distress % |
 |----------|-----------:|
 | overall  |      6.863 |
 | training |      6.863 |
 | test     |      6.863 |
+
+</center>
   
-<p><em>Table 1. Percentage of companies in distress in the original and split data sets</em></p>
+<p style="text-align: center;"><em>Table 1. Percentage of companies in distress in the original and split data sets</em></p>
 
 The percentages look pretty much the same, which implies that the data
 set is suitable for a homogeneous split with high precision.
@@ -90,6 +94,8 @@ cpTable <- printcp(treeA)
 knitr::kable(cpTable, "simple", row.names = FALSE)
 ```
 
+<center>
+
 |        CP | nsplit | rel error |    xerror |      xstd |
 |----------:|-------:|----------:|----------:|----------:|
 | 0.1216931 |      0 | 1.0000000 | 1.0000000 | 0.0701990 |
@@ -102,7 +108,9 @@ knitr::kable(cpTable, "simple", row.names = FALSE)
 | 0.0105820 |      9 | 0.6084656 | 0.9259259 | 0.0677331 |
 | 0.0100000 |     10 | 0.5978836 | 0.9523810 | 0.0686273 |
 
-<p><em>Table 2. CP Table</em></p>
+</center>
+
+<p style="text-align: center;"><em>Table 2. CP Table</em></p>
 
 Pruning the tree:
 
@@ -150,12 +158,16 @@ tblA     <- table(fdtest$Financial.Distress,
 knitr::kable(tblA, "simple", col.names = c("pred_0", "pred_1"))
 ```
 
+<center>
+
 |     | pred_0 | pred_1 |
 |-----|-------:|-------:|
 | 0   |    842 |     13 |
 | 1   |     37 |     26 |
 
-<p><em>Table 3. Prediction results</em></p>
+</center>
+
+<p style="text-align: center;"><em>Table 3. Prediction results</em></p>
 
 ``` r
 # Generating the confusion matrix
@@ -174,6 +186,8 @@ rownames(results) <- c('Accuracy', 'Sensitivity', "Specificity", "Precision")
 knitr::kable(round(results, 3)*100, "simple", col.names = "%")
 ```
 
+<center>
+
 |             |    % |
 |-------------|-----:|
 | Accuracy    | 94.6 |
@@ -181,7 +195,9 @@ knitr::kable(round(results, 3)*100, "simple", col.names = "%")
 | Specificity | 98.5 |
 | Precision   | 66.7 |
 
-<p><em>Table 4. Prediction report</em></p>
+</center>
+
+<p style="text-align: center;"><em>Table 4. Prediction report</em></p>
 
 ## Pruning the Tree (Based on the Cost Complexity)
 
@@ -221,12 +237,16 @@ tblB    <- table(fdtest$Financial.Distress, predB)
 knitr::kable(tblB, "simple", col.names = c("pred_0", "pred_1"))
 ```
 
+<center>
+
 |     | pred_0 | pred_1 |
 |-----|-------:|-------:|
 | 0   |    823 |     32 |
 | 1   |     39 |     24 |
 
-<p><em>Table 5. Percentage of companies in distress in the original and split data sets (alternative pruning)</em></p>
+</center>
+
+<p style="text-align: center;"><em>Table 5. Percentage of companies in distress in the original and split data sets (alternative pruning)</em></p>
 
 ``` r
 # Generating the confusion matrix
@@ -243,6 +263,8 @@ results <- cbind(results, c(cmB[["overall"]][["Accuracy"]],
 knitr::kable(round(results, 3), "simple", col.names = c("Cross-Validation", "Cost Complexity"))
 ```
 
+<center>
+
 |             | Cross-Validation | Cost Complexity |
 |-------------|-----------------:|----------------:|
 | Accuracy    |            0.946 |           0.923 |
@@ -250,7 +272,9 @@ knitr::kable(round(results, 3), "simple", col.names = c("Cross-Validation", "Cos
 | Specificity |            0.985 |           0.963 |
 | Precision   |            0.667 |           0.429 |
 
-<p><em>Table 6. Performance comparison of the two models</em></p>
+</center>
+
+<p style="text-align: center;"><em>Table 6. Performance comparison of the two models</em></p>
 
 As can be expected, the tree pruned by minimizing the cross-validation
 error has better accuracy, specificity, and precision compared to the
