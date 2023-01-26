@@ -2,7 +2,7 @@
 title: Decision Trees - Regression Example
 date: 2022-04-05 14:10:00 +0800
 categories: [Machine Learning]
-tags: [r, regression, tree based algorithms]
+tags: [r, regression trees, tree based algorithms]
 render_with_liquid: false
 ---
 
