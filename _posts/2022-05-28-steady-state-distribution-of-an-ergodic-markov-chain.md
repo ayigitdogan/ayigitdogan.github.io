@@ -331,7 +331,7 @@ ggplot(data.frame(P1MC, P1MM),
                        values   = c("Monte Carlo"     = "darkblue",
                                     "Matrix Mult."    = "firebrick3")   )
 ```
-![Figure 1](/assets/img/content/steady-state-distribution-plots-1-1.png)  
+![Figure 1](/assets/img/content/220528/steady-state-distribution-plots-1-1.png)  
 <p style="text-align: center;"><em>Figure 1. Steady State Distributions Obtained Using P<sub>1</sub></em></p>
 
 ``` r
@@ -354,7 +354,7 @@ ggplot(data.frame(P2MC, P2MM),
                                     "Matrix Mult."    = "firebrick3")   )
 ```
 
-![Figure 2](/assets/img/content/steady-state-distribution-plots-2-1.png)  
+![Figure 2](/assets/img/content/220528/steady-state-distribution-plots-2-1.png)  
 <p style="text-align: center;"><em>Figure 2. Steady State Distributions Obtained Using P<sub>2</sub></em></p>
 
 ``` r
@@ -378,7 +378,7 @@ ggplot(data.frame(P3MC, P3MM),
                        values   = c("Monte Carlo"     = "darkblue",
                                     "Matrix Mult."    = "firebrick3")   )
 ```
-![Figure 3](/assets/img/content/steady-state-distribution-plots-3-1.png)  
+![Figure 3](/assets/img/content/220528/steady-state-distribution-plots-3-1.png)  
 <p style="text-align: center;"><em>Figure 3. Steady State Distributions Obtained Using P<sub>3</sub></em></p>
 
 As can be seen in the above plots, the distributions are quite close,
