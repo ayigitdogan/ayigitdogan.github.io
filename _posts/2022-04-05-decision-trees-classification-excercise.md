@@ -52,11 +52,24 @@ knitr::kable(round(percentages, 3), "simple", col.names = "Distress %")
 
 <div align="center">
 
-|          | Distress % |
-|----------|-----------:|
-| overall  |      6.863 |
-| training |      6.863 |
-| test     |      6.863 |
+ <table>
+  <tr>
+    <th> </th>
+    <th>Distress %</th>
+  </tr>
+  <tr>
+    <td>overall</td>
+    <td>6.863</td>
+  </tr>
+  <tr>
+    <td>training</td>
+    <td>6.863</td>
+  </tr>
+    <tr>
+    <td>test</td>
+    <td>6.863</td>
+  </tr>
+</table>
 
 </div>
   
@@ -96,17 +109,82 @@ knitr::kable(cpTable, "simple", row.names = FALSE)
 
 <div align="center">
 
-|        CP | nsplit | rel error |    xerror |      xstd |
-|----------:|-------:|----------:|----------:|----------:|
-| 0.1216931 |      0 | 1.0000000 | 1.0000000 | 0.0701990 |
-| 0.1005291 |      1 | 0.8783069 | 1.0529101 | 0.0718916 |
-| 0.0476190 |      2 | 0.7777778 | 0.8571429 | 0.0653328 |
-| 0.0423280 |      3 | 0.7301587 | 0.8888889 | 0.0664546 |
-| 0.0185185 |      4 | 0.6878307 | 0.8306878 | 0.0643787 |
-| 0.0158730 |      6 | 0.6507937 | 0.8783069 | 0.0660834 |
-| 0.0132275 |      7 | 0.6349206 | 0.9100529 | 0.0671891 |
-| 0.0105820 |      9 | 0.6084656 | 0.9259259 | 0.0677331 |
-| 0.0100000 |     10 | 0.5978836 | 0.9523810 | 0.0686273 |
+<table>
+<thead>
+  <tr>
+    <th>CP</th>
+    <th>nsplit</th>
+    <th>rel error</th>
+    <th>xerror</th>
+    <th>xstd</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>0.1216931</td>
+    <td>0</td>
+    <td>1.0000000</td>
+    <td>1.0000000</td>
+    <td>0.0701990</td>
+  </tr>
+  <tr>
+    <td>0.1005291</td>
+    <td>1</td>
+    <td>0.8783069</td>
+    <td>1.0529101</td>
+    <td>0.0718916</td>
+  </tr>
+  <tr>
+    <td>0.0476190</td>
+    <td>2</td>
+    <td>0.7777778</td>
+    <td>0.8571429</td>
+    <td>0.0653328</td>
+  </tr>
+  <tr>
+    <td>0.0423280</td>
+    <td>3</td>
+    <td>0.7301587</td>
+    <td>0.8888889</td>
+    <td>0.0664546</td>
+  </tr>
+  <tr>
+    <td>0.0185185</td>
+    <td>4</td>
+    <td>0.6878307</td>
+    <td>0.8306878</td>
+    <td>0.0643787</td>
+  </tr>
+  <tr>
+    <td>0.0158730</td>
+    <td>6</td>
+    <td>0.6507937</td>
+    <td>0.8783069</td>
+    <td>0.0660834</td>
+  </tr>
+  <tr>
+    <td>0.0132275</td>
+    <td>7</td>
+    <td>0.6349206</td>
+    <td>0.9100529</td>
+    <td>0.0671891</td>
+  </tr>
+  <tr>
+    <td>0.0105820</td>
+    <td>9</td>
+    <td>0.6084656</td>
+    <td>0.9259259</td>
+    <td>0.0677331</td>
+  </tr>
+  <tr>
+    <td>0.0100000</td>
+    <td>10</td>
+    <td>0.5978836</td>
+    <td>0.9523810</td>
+    <td>0.0686273</td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
@@ -160,10 +238,23 @@ knitr::kable(tblA, "simple", col.names = c("pred_0", "pred_1"))
 
 <div align="center">
 
-|     | pred_0 | pred_1 |
-|-----|-------:|-------:|
-| 0   |    842 |     13 |
-| 1   |     37 |     26 |
+ <table>
+  <tr>
+    <th> </th>
+    <th>pred_0</th>
+    <th>pred_1</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>842</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>37</td>
+    <td>26</td>
+  </tr>
+</table> 
 
 </div>
 
@@ -187,13 +278,29 @@ knitr::kable(round(results, 3)*100, "simple", col.names = "%")
 ```
 
 <div align="center">
-
-|             |    % |
-|-------------|-----:|
-| Accuracy    | 94.6 |
-| Sensitivity | 41.3 |
-| Specificity | 98.5 |
-| Precision   | 66.7 |
+ 
+ <table>
+  <tr>
+    <th> </th>
+    <th>%</th>
+  </tr>
+  <tr>
+    <td>Accuracy</td>
+    <td>94.6</td>
+  </tr>
+  <tr>
+    <td>Sensitivity</td>
+    <td>41.3</td>
+  </tr>
+  <tr>
+    <td>Specificity</td>
+    <td>98.5</td>
+  </tr>
+  <tr>
+    <td>Precision</td>
+    <td>66.7</td>
+  </tr>
+</table> 
 
 </div>
 
@@ -239,14 +346,27 @@ knitr::kable(tblB, "simple", col.names = c("pred_0", "pred_1"))
 
 <div align="center">
 
-|     | pred_0 | pred_1 |
-|-----|-------:|-------:|
-| 0   |    823 |     32 |
-| 1   |     39 |     24 |
+ <table>
+  <tr>
+    <th> </th>
+    <th>pred_0</th>
+    <th>pred_1</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>823</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>39</td>
+    <td>24</td>
+  </tr>
+</table> 
 
 </div>
 
-<p style="text-align: center;"><em>Table 5. Percentage of companies in distress in the original and split data sets (alternative pruning)</em></p>
+<p style="text-align: center;"><em>Table 5. Prediction results (alternative pruning)</em></p>
 
 ``` r
 # Generating the confusion matrix
@@ -265,12 +385,33 @@ knitr::kable(round(results, 3), "simple", col.names = c("Cross-Validation", "Cos
 
 <div align="center">
 
-|             | Cross-Validation | Cost Complexity |
-|-------------|-----------------:|----------------:|
-| Accuracy    |            0.946 |           0.923 |
-| Sensitivity |            0.413 |           0.381 |
-| Specificity |            0.985 |           0.963 |
-| Precision   |            0.667 |           0.429 |
+ <table>
+  <tr>
+    <th> </th>
+    <th>Cross-Validation</th>
+    <th>Cost Complexity</th>
+  </tr>
+  <tr>
+    <td>Accuracy</td>
+    <td>0.946</td>
+    <td>0.923</td>
+  </tr>
+  <tr>
+    <td>Sensitivity</td>
+    <td>0.413</td>
+    <td>0.381</td>
+  </tr>
+  <tr>
+    <td>Specificity</td>
+    <td>0.985</td>
+    <td>0.963</td>
+  </tr>
+  <tr>
+    <td>Precision</td>
+    <td>0.667</td>
+    <td>0.429</td>
+  </tr>
+</table> 
 
 </div>
 
