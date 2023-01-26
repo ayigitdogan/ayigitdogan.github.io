@@ -128,7 +128,7 @@ prp(optTree)
 pred <- predict(optTree, newdata = tctest)
 
 # Reporting the metrics
-
+# Root mean squared error
 rmse(actual = tctest$Price, predicted = pred)
 
 ```
@@ -136,7 +136,7 @@ rmse(actual = tctest$Price, predicted = pred)
     ## [1] 1350.192
 
 ``` r
-
+# Mean absolute error
 mae (actual = tctest$Price, predicted = pred)
 
 ```
