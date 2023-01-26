@@ -118,7 +118,6 @@ prp(optTree)
 ```
 ![Figure 2](/assets/img/content/220405/reg-prune-1.png)  
 <p style="text-align: center;"><em>Figure 2. Decision tree after pruning</em></p>
-![](rererere_files/figure-gfm/prune-1.png)
 
 ## Performing the Predictions and Reporting the Metrics
 
