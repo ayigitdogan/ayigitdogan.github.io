@@ -32,13 +32,6 @@ as follows:
 -   Calling the base URL’s and extending them with additional queries to
     obtain more specific results.
 
--   The main problem with the code was the readability due to the length
-    of the URL’s. Thus, the URL’s are decomposed into three parts (body,
-    query strings, and api key) by using the base R function “gsub”
-    along with a custom function called “extend_URL”. This way, the code
-    became more clean and also reusable with different API keys and
-    queries.
-
 ``` r
 # Installing the required R packages
 # install.packages("httr")
@@ -51,7 +44,7 @@ library("jsonlite")
 
 # Setting the API key
 
-api_key <- "{Insert your API Key Here}"
+api_key <- "{Insert your API key here}"
 
 # Defining a function to concatenate URL's and query strings easily
 
