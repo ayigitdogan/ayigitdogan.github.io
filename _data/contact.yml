@@ -15,10 +15,6 @@
   type: spotify
   icon: 'fab fa-spotify'
   url:  'http://open.spotify.com/user/ayigitdogan'
--
-  type: instagram
-  icon: 'fab fa-instagram'
-  url:  'https://www.instagram.com/ayigitdogan/'
 
 # type: email
 # icon: 'fas fa-envelope'
