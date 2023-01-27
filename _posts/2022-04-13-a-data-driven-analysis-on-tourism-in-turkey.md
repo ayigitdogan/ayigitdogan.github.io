@@ -1,5 +1,5 @@
 ---
-title: A Data Driven Analysis on Tourism in Turkey
+title: A Data-Driven Analysis on Tourism in Turkey
 date: 2022-04-13 14:10:00 +0800
 categories: [Time Series Analysis]
 tags: [data analysis, data visualization, r, time series]
