@@ -4,16 +4,25 @@
   type: github
   icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/ayigitdogan/'
 -
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
+  type: goodreads
+  icon: 'fab fa-goodreads'
+  url:  'https://www.goodreads.com/ayigitdogan/'
 -
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+  type: spotify
+  icon: 'fab fa-spotify'
+  url:  'http://open.spotify.com/user/ayigitdogan'
+
+# type: email
+# icon: 'fas fa-envelope'
+# noblank: true            # open link in current tab
+-
+# type: rss
+# icon: 'fas fa-rss'
+# noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -

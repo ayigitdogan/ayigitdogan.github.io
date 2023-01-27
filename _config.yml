@@ -14,7 +14,7 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Istanbul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -32,14 +32,14 @@ url: 'https://ayigitdogan.github.io'
 github:
   username: ayigitdogan                 # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+linkedin:
+  username: ayigitdogan
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ahmet Yiğit Doğan
-  email: ahmet.dogan@boun.edu.tr
+  email: ayigitdogan@gmail.com
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username    # change to your twitter homepage
