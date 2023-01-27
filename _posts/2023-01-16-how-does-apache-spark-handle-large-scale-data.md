@@ -10,7 +10,7 @@ In this presentation, on which I have been working as my research project for En
 
 <center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gKdNuPZcr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% include embed/youtube.html id='7gKdNuPZcr0' %}
 
 </center>
 
