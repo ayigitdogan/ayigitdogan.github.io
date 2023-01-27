@@ -51,7 +51,7 @@ library("jsonlite")
 
 # Setting the API key
 
-api_key <- "5169379406b250c1d86d329ce1fcd1c9"
+api_key <- "{Insert your API Key Here}"
 
 # Defining a function to concatenate URL's and query strings easily
 
