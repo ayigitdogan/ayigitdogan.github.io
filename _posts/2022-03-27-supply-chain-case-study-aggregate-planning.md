@@ -846,5 +846,5 @@ print(pd.DataFrame(o))
 
 *Solution by Ahmet Yiğit Doğan*  
 *IE 313 - Supply Chain Management*  
-*Boğaziçi University - Industrial Engineering Department*
-[GitHub Repository](https://github.com/ayigitdogan/Supply-Chain-Case-Study-1-Aggregate-Planning)
+*Boğaziçi University - Industrial Engineering Department*  
+*[GitHub Repository](https://github.com/ayigitdogan/Supply-Chain-Case-Study-1-Aggregate-Planning)*
