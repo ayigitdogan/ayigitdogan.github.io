@@ -650,7 +650,7 @@ print(f"Confusion Matrix:\n {cm}")
 ```
 
     Accuracy:		0.8036512732505798
-    Precision:	    0.5432372689247131
+    Precision:	      0.5432372689247131
     Recall:			0.8099173307418823
     Confusion Matrix:
      tensor([[1667,  412],
