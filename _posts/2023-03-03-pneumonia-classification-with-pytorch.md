@@ -260,8 +260,8 @@ stdev = np.sqrt(sums_squared / len_train - (mean**2))
 print(f"Mean:\t\t\t {mean} \nStandard Deviation:\t {stdev}")
 ```
 
-    Mean:         0.44106992823128194 
-    Standard Deviation:	0.27758244159100576
+    Mean:             0.44106992823128194 
+    Standard Deviation: 0.27758244159100576
     
 
 
