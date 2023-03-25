@@ -664,7 +664,7 @@ print(f"Confusion Matrix:\n {cm}")
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-gqiz{background-color:#ecf4ff;border-color:#000000;color:#000000;text-align:center;vertical-align:top}
 .tg .tg-vq2r{background-color:#ffccc9;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-mkj1{background-color:#000000;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mkj1{background-color:#ecf4ff;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
 .tg .tg-j4b9{background-color:#9aff99;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
 .tg .tg-ku1y{background-color:#dae8fc;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
 </style>
