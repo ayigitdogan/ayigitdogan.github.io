@@ -1,7 +1,7 @@
 ---
-title: Supply Chain Case Study 1 - Aggregate Planning
+title: Supply Chain Case Study - Aggregate Planning
 date: 2022-03-27 14:10:00 +0800
-categories: [Optimization]
+categories: [Engineering, Optimization]
 tags: [linear programming, pulp, python, supply chain]
 render_with_liquid: false
 ---
@@ -344,7 +344,7 @@ plt.show()
 
     
 ![png](/assets/img/content/220327/output_12_0.png)
-    
+<p style="text-align: center;"><em>Figure 1. Optimal Monthly Production Plan for the Base Model</em></p>    
 
 
 
@@ -371,6 +371,7 @@ plt.show()
 
     
 ![png](/assets/img/content/220327/output_13_0.png)
+<p style="text-align: center;"><em>Figure 2. Optimal Inventory Levels for the Base Model</em></p>
 
 ## Extension 1
 

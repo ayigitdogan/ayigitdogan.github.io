@@ -1,7 +1,7 @@
 ---
 title: Building an MRP Database Model with MySQL
 date: 2023-01-14 14:10:00 +0800
-categories: [Database Management]
+categories: [Engineering, Database Management]
 tags: [database, mrp, mysql, sql]
 render_with_liquid: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: Steady State Distribution of an Ergodic Markov Chain
 date: 2022-05-28 14:10:00 +0800
-categories: [Optimization]
+categories: [Engineering, Optimization]
 tags: [markov chains, optimization, monte carlo simulation, r]
 render_with_liquid: false
 ---

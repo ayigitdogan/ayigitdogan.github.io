@@ -1,7 +1,7 @@
 ---
 title: Retrieving Western Movies with TMDB API
 date: 2022-12-14 14:10:00 +0800
-categories: [Data Analysis]
+categories: [Engineering, Data Analysis]
 tags: [rest api, r]
 render_with_liquid: false
 ---

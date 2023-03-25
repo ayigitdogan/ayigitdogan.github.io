@@ -1,7 +1,7 @@
 ---
 title: Clustering Airlines Customers
 date: 2022-05-29 14:10:00 +0800
-categories: [Machine Learning]
+categories: [Engineering, Machine Learning]
 tags: [clustering, hierarchical clustering, k-means clustering, r]
 render_with_liquid: false
 ---

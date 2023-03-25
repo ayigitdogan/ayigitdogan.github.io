@@ -1,7 +1,7 @@
 ---
 title: Forecasting Gasoline Sales with Time Series Approach
 date: 2022-05-02 14:10:00 +0800
-categories: [Time Series Analysis]
+categories: [Engineering, Time Series Analysis]
 tags: [forecasting, r, regression, time series]
 render_with_liquid: false
 ---

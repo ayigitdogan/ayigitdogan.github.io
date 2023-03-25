@@ -1,7 +1,7 @@
 ---
 title: How Does Apache Spark Handle Large-Scale Data?
 date: 2023-01-16 14:10:00 +0800
-categories: [Big Data]
+categories: [Engineering, Big Data]
 tags: [spark]
 render_with_liquid: false
 ---

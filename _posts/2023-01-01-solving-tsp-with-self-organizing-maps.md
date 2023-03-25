@@ -1,7 +1,7 @@
 ---
 title: Solving Traveling Salesman Problem with Self-Organizing Maps
 date: 2023-01-01 14:10:00 +0800
-categories: [Neural Networks]
+categories: [Engineering, Neural Networks]
 tags: [machine learning, neural networks, optimization, r, unsupervised learning]
 render_with_liquid: false
 ---
