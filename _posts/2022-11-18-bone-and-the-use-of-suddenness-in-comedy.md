@@ -2,7 +2,7 @@
 title: Jeff Smith's Bone and the Use of Suddenness in Comics as an Element of Comedy
 date: 2022-11-18 14:10:00 +0800
 categories: [Comics]
-tags: [bone, comedy, comics theory, high fantasy]
+tags: [comedy, comics theory, high fantasy]
 render_with_liquid: false
 ---
 
