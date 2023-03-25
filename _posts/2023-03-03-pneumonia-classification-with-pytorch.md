@@ -10,7 +10,7 @@ Pneumonia is an infection that inflames the air sacs in one or both lungs. The a
 
 This study aims to provide a classification model trained with the X-Ray images provided in the [pneumonia detection challenge](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) in Kaggle. Further information regarding the dataset can be found in the [*ChestX-ray8*](https://arxiv.org/abs/1705.02315) paper.
 
-A Colab-friendly version of this notebook is available at [GitHub](https://github.com/ayigitdogan/pneumonia-classification), which can be directly run on Google Colab with a valid Kaggle credential file.
+A Colab-friendly version of this notebook is available at [GitHub](https://github.com/ayigitdogan/Pneumonia-Classification), which can be directly run on Google Colab with a valid Kaggle credential file.
 
 ## Importing Libraries
 
@@ -699,4 +699,4 @@ For lower maximum number of epochs, the model would yield a better accuracy and 
 
 *Written by Ahmet Yiğit Doğan*  
 [*Deep Learning with PyTorch for Medical Image Analysis*](https://www.udemy.com/course/deep-learning-with-pytorch-for-medical-image-analysis/)    
-[GitHub Repository](https://github.com/ayigitdogan/pneumonia-classification)
+[GitHub Repository](https://github.com/ayigitdogan/Pneumonia-Classification)
