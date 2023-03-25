@@ -260,7 +260,7 @@ stdev = np.sqrt(sums_squared / len_train - (mean**2))
 print(f"Mean:\t\t\t {mean} \nStandard Deviation:\t {stdev}")
 ```
 
-    Mean:			          0.44106992823128194 
+    Mean:         0.44106992823128194 
     Standard Deviation:	0.27758244159100576
     
 
@@ -630,11 +630,6 @@ preds = torch.tensor(preds)
 labels = torch.tensor(labels).int()
 ```
 
-
-      0%|          | 0/2684 [00:00<?, ?it/s]
-
-
-
 ```python
 # Checking the metrics
 
@@ -650,7 +645,7 @@ print(f"Confusion Matrix:\n {cm}")
 ```
 
     Accuracy:		0.8036512732505798
-    Precision:	      0.5432372689247131
+    Precision:	        0.5432372689247131
     Recall:			0.8099173307418823
     Confusion Matrix:
      tensor([[1667,  412],
