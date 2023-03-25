@@ -10,6 +10,8 @@ Pneumonia is an infection that inflames the air sacs in one or both lungs. The a
 
 This study aims to provide a classification model trained with the X-Ray images provided in the [pneumonia detection challenge](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) in Kaggle. Further information regarding the dataset can be found in the [*ChestX-ray8*](https://arxiv.org/abs/1705.02315) paper.
 
+A Colab-friendly version of this notebook is available at GitHub, which can be directly run on Google Colab with a valid Kaggle credential file.
+
 ## Importing Libraries
 
 ```python
@@ -148,7 +150,7 @@ labels.head(10)
 </tbody>
 </table>
 
-The data includes 6 columns including patient ID, target variable, and information about the location of the pneumonia if it exists. Notice that there are multiple entries for some patients since pneumonia can be located at more than one segment of an X-Ray image. Therefore, they will only be relevant in the second part of this excercise.
+The data includes 6 columns including patient ID, target variable, and information about the location of the pneumonia if it exists. Notice that there are multiple entries for some patients since pneumonia can be located at more than one segment of an X-Ray image. A subset of the dataset such that each patient has only one record is sufficient in this case since the aim of this study is not detection.
 
 
 ```python
@@ -188,7 +190,7 @@ for i in range(3):
         
         axis[i][j].imshow(dcm, cmap="bone")
         axis[i][j].set_title(label)
-        
+
         c += 1
 ```
 
@@ -600,6 +602,7 @@ trainer.fit(model, train_loader, test_loader)
     INFO:pytorch_lightning.utilities.rank_zero:`Trainer.fit` stopped: `max_epochs=40` reached.
     
 
+## Validation
 
 ```python
 # Set device to cuda if available
@@ -641,21 +644,61 @@ recall = torchmetrics.Recall(task="binary")(preds, labels)
 cm = torchmetrics.ConfusionMatrix(task="binary")(preds, labels)
 
 print(f"Accuracy:\t\t{acc}")
-print(f"Precision:\t{precision}")
+print(f"Precision:\t\t{precision}")
 print(f"Recall:\t\t\t{recall}")
 print(f"Confusion Matrix:\n {cm}")
 ```
 
     Accuracy:		0.8036512732505798
-    Precision:	0.5432372689247131
+    Precision:	  0.5432372689247131
     Recall:			0.8099173307418823
     Confusion Matrix:
      tensor([[1667,  412],
             [ 115,  490]])
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-yofg{background-color:#9aff99;text-align:left;vertical-align:top}
+.tg .tg-w747{background-color:#dae8fc;text-align:left;vertical-align:top}
+.tg .tg-ltxa{background-color:#ffccc9;text-align:left;vertical-align:top}
+.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c6of" colspan="2" rowspan="2"></th>
+    <th class="tg-i81m" colspan="2">Real Label</th>
+  </tr>
+  <tr>
+    <th class="tg-w747">Positive</th>
+    <th class="tg-w747">Negative</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-i81m" rowspan="2">Predicted Label</td>
+    <td class="tg-w747">Positive</td>
+    <td class="tg-yofg">490</td>
+    <td class="tg-ltxa">412</td>
+  </tr>
+  <tr>
+    <td class="tg-w747">Negative</td>
+    <td class="tg-ltxa">115</td>
+    <td class="tg-yofg">1667</td>
+  </tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><em>Table 1. Confusion Matrix</em></p>
     
 
 High recall points out that the model rarely misses the cases with pneumonia, yet the precision is not sufficient and points out the high number of false positives.
 
-*Written by Ahmet Yiğit Doğan*
-[*Deep Learning with PyTorch for Medical Image Analysis*](https://www.udemy.com/course/deep-learning-with-pytorch-for-medical-image-analysis/)  
+*Written by Ahmet Yiğit Doğan*  
+[*Deep Learning with PyTorch for Medical Image Analysis*](https://www.udemy.com/course/deep-learning-with-pytorch-for-medical-image-analysis/)    
 [GitHub Repository]()
