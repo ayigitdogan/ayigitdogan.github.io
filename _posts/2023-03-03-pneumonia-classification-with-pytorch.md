@@ -10,7 +10,7 @@ Pneumonia is an infection that inflames the air sacs in one or both lungs. The a
 
 This study aims to provide a classification model trained with the X-Ray images provided in the [pneumonia detection challenge](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) in Kaggle. Further information regarding the dataset can be found in the [*ChestX-ray8*](https://arxiv.org/abs/1705.02315) paper.
 
-A Colab-friendly version of this notebook is available at GitHub, which can be directly run on Google Colab with a valid Kaggle credential file.
+A Colab-friendly version of this notebook is available at [GitHub](https://github.com/ayigitdogan/pneumonia-classification), which can be directly run on Google Colab with a valid Kaggle credential file.
 
 ## Importing Libraries
 
@@ -650,7 +650,7 @@ print(f"Confusion Matrix:\n {cm}")
 ```
 
     Accuracy:		0.8036512732505798
-    Precision:	  0.5432372689247131
+    Precision:	    0.5432372689247131
     Recall:			0.8099173307418823
     Confusion Matrix:
      tensor([[1667,  412],
@@ -662,34 +662,35 @@ print(f"Confusion Matrix:\n {cm}")
   padding:10px 5px;word-break:normal;}
 .tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-yofg{background-color:#9aff99;text-align:left;vertical-align:top}
-.tg .tg-w747{background-color:#dae8fc;text-align:left;vertical-align:top}
-.tg .tg-ltxa{background-color:#ffccc9;text-align:left;vertical-align:top}
-.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-i81m{background-color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-gqiz{background-color:#ecf4ff;border-color:#000000;color:#000000;text-align:center;vertical-align:top}
+.tg .tg-vq2r{background-color:#ffccc9;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-mkj1{background-color:#000000;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-j4b9{background-color:#9aff99;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-ku1y{background-color:#dae8fc;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
 </style>
-<table class="tg">
+
+<table class="tg" style="border:1px solid black;margin-left:auto;margin-right:auto;">
 <thead>
   <tr>
-    <th class="tg-c6of" colspan="2" rowspan="2"></th>
-    <th class="tg-i81m" colspan="2">Real Label</th>
+    <th class="tg-mkj1" colspan="2" rowspan="2"></th>
+    <th class="tg-gqiz" colspan="2">Real Label</th>
   </tr>
   <tr>
-    <th class="tg-w747">Positive</th>
-    <th class="tg-w747">Negative</th>
+    <th class="tg-ku1y">Positive</th>
+    <th class="tg-ku1y">Negative</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-i81m" rowspan="2">Predicted Label</td>
-    <td class="tg-w747">Positive</td>
-    <td class="tg-yofg">490</td>
-    <td class="tg-ltxa">412</td>
+    <td class="tg-gqiz" rowspan="2">Predicted Label</td>
+    <td class="tg-ku1y">Positive</td>
+    <td class="tg-j4b9">490</td>
+    <td class="tg-vq2r">412</td>
   </tr>
   <tr>
-    <td class="tg-w747">Negative</td>
-    <td class="tg-ltxa">115</td>
-    <td class="tg-yofg">1667</td>
+    <td class="tg-ku1y">Negative</td>
+    <td class="tg-vq2r">115</td>
+    <td class="tg-j4b9">1667</td>
   </tr>
 </tbody>
 </table>
@@ -697,8 +698,10 @@ print(f"Confusion Matrix:\n {cm}")
 <p style="text-align: center;"><em>Table 1. Confusion Matrix</em></p>
     
 
-High recall points out that the model rarely misses the cases with pneumonia, yet the precision is not sufficient and points out the high number of false positives.
+High recall points out that the model rarely misses the cases with pneumonia, yet the precision score is not that good and points out the high number of false positives. In this context, the model's performance can be considered good since missing a pneumonia case is worse than predicting a false positive. 
+
+For lower maximum number of epochs, the model would yield a better accuracy and worse recall, yet a better recall and a sufficient accuracy is obviously better. Therefore, it can be concluded that setting the penalty weight to 3 contributed well, as the model gets closer to the optimum with higher epochs. 
 
 *Written by Ahmet Yiğit Doğan*  
 [*Deep Learning with PyTorch for Medical Image Analysis*](https://www.udemy.com/course/deep-learning-with-pytorch-for-medical-image-analysis/)    
-[GitHub Repository]()
+[GitHub Repository](https://github.com/ayigitdogan/pneumonia-classification)
