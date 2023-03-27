@@ -457,5 +457,5 @@ Note that the models might not perform as well as this case on different dataset
 [^footnote]: [Feltes, B.C.; Chandelier, E.B.; Grisci, B.I.; Dorn, M. CuMiDa: An Extensively Curated Microarray Database for Benchmarking and Testing of Machine Learning Approaches in Cancer Research. Journal of Computational Biology, 2019.](https://www.liebertpub.com/doi/10.1089/cmb.2018.0238)
 
 *Written by Ahmet Yiğit Doğan*  
-Inspired by [Gene Expression Classification](https://www.kaggle.com/code/varimp/gene-expression-classification)     
+*Inspired by [Gene Expression Classification](https://www.kaggle.com/code/varimp/gene-expression-classification)*     
 [GitHub Repository](https://github.com/ayigitdogan/Leukemia-Gene-Expression-Classification)
