@@ -31,7 +31,6 @@ The volume also bears a resemblance to film-noir in terms of the personal charac
 When the noir genre is considered, bleak or tragic conclusions are more likely to happen. The Hard Goodbye keeps the tradition, with a dramatic final inner dialogue, and the cold-blooded attitude of the protagonist against his fate.
 
 A distinct divergence from the noir genre in the volume is the role of women. Most of the classic noir works employ an ambitious femme-fatale with a strong personal character. She poses a potential threat for male characters and probably makes decisions that cause a major change in the story arc. In The Hard Goodbye, Goldie just plays the role of a spark that starts the journey of the protagonist, not much about her character is revealed. The same holds for Lucille and Wendy, they also do not shape the story majorly. However, the proper femme-fatale role is filled with a greedy Ava in the next volume, A Dame to Kill For, who is an extreme example of this archetype.
-
-*Written by Ahmet Yiğit Doğan*  
+ 
 *FA 489 - Graphic Novel*  
 *Boğaziçi University - Department of Western Languages and Literatures*

@@ -220,7 +220,6 @@ knitr::kable(table)
 
 Looks like my favourite one takes the sixth place :-)
 
-*Written by Ahmet Yiğit Doğan*  
 *IE 442 - Enterprise Information Systems*  
 *Boğaziçi University - Industrial Engineering Department*
 [GitHub Repository](https://github.com/ayigitdogan/Retrieving-Western-Movies-with-TMDB-API)

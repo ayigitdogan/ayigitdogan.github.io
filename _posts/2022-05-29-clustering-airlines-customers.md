@@ -356,8 +356,7 @@ used by picking the second cluster as the main target audience due to
 the higher number of observations fall into this set. The absence of
 super customers is not a decision criteria since their amount is
 negligible.
-
-*Written by Ahmet Yiğit Doğan*  
+ 
 *IE 425 - Data Mining*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Clustering-Airlines-Customers)

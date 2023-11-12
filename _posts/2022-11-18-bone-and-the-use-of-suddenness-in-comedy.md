@@ -35,6 +35,5 @@ Besides the unusual gender depiction, minimalist design of the main characters a
 
 [^footnote]: McCloud, S. (1993). Understanding Comics: The Invisible Art. [(pp. 52-53)](/assets/img/content/221118/McCloud_Pyramide.png). Kitchen Sink Press.
 
-*Written by Ahmet Yiğit Doğan*  
 *FA 490 - Advanced Graphic Novel and Comics*  
 *Boğaziçi University - The Department of Western Languages and Literatures*

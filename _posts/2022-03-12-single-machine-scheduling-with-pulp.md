@@ -487,7 +487,6 @@ FinalTimeHorizonDf
 </table>
 </div>
 
-*Written by Ahmet Yiğit Doğan*  
 *IE 203 - Operations Research II*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Single-Machine-Scheduling-with-PuLP)

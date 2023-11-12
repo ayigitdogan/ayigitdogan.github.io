@@ -696,7 +696,6 @@ print(f"Confusion Matrix:\n {cm}")
 High recall points out that the model rarely misses the cases with pneumonia, yet the precision score is not that good and points out the high number of false positives. In this context, the model's performance can be considered good since missing a pneumonia case is worse than predicting a false positive. 
 
 For lower maximum number of epochs, the model would yield a better accuracy and worse recall, yet a better recall and a sufficient accuracy is obviously better. Therefore, it can be concluded that setting the penalty weight to 3 contributed well, as the model gets closer to the optimum with higher epochs. 
-
-*Written by Ahmet Yiğit Doğan*  
+ 
 [*Deep Learning with PyTorch for Medical Image Analysis*](https://www.udemy.com/course/deep-learning-with-pytorch-for-medical-image-analysis/)    
 [GitHub Repository](https://github.com/ayigitdogan/Pneumonia-Classification)

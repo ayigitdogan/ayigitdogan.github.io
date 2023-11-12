@@ -142,8 +142,7 @@ mae (actual = tctest$Price, predicted = pred)
 ```
 
     ## [1] 983.8521
-
-*Written by Ahmet Yiğit Doğan*  
+  
 *IE 425 - Data Mining*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Decision-Trees-Regression-Example)

@@ -355,7 +355,6 @@ Band’s best solution suggests a 2 times shorter path), it can be
 concluded that in the specific case of Traveling Salesman Problem, SOM
 works better with the neighborhood function defined on the elastic band.
 
-*Written by Ahmet Yiğit Doğan*  
 *IE 440 - Nonlinear Models in Operations Research*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Solving-TSP-with-Self-Organizing-Maps)

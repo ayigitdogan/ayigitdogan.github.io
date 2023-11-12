@@ -575,8 +575,7 @@ rules that stop iterations after the first occurrence of the absorbing
 state since from that point on there will be no change of state, and
 this would potentially reduce the execution time dramatically by
 eliminating redundant calculations.
-
-*Written by Ahmet Yiğit Doğan*  
+ 
 *IE 203 - Operations Research II*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Steady-State-Distribution-of-an-Ergodic-Markov-Chain)

@@ -30,7 +30,6 @@ Inside this procedure, cursors loop through the items and periods to update proj
 For further information (Entity-Relationship diagram, test case results etc.), please refer to the [report](/assets/pdf/Report%20-%20Building%20an%20MRP%20Database%20Model%20with%20MySQL.pdf) of this project. You can check the code that generates the database and the test case code in the [GitHub repository](https://github.com/ayigitdogan/Building-an-MRP-Database-Model-with-MySQL) of the project.
 
 [^footnote]: Nahmias, S., Olsen, T. (2015). Production and Operations Analysis. (pp. 444-445). Waveland Press. Seventh edition.
-
-*Written by Ahmet Yiğit Doğan*  
+ 
 *IE 442 - Enterprise Information Systems*  
 *Boğaziçi University - Industrial Engineering Department*

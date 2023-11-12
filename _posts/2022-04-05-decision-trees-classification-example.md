@@ -423,7 +423,6 @@ one pruned according to cost complexity, which has lost some of its
 general validity due to its perfect fit. In other words, too many
 terminal nodes might lead the model to overfitting!
 
-*Written by Ahmet Yiğit Doğan*  
 *IE 425 - Data Mining*  
 *Boğaziçi University - Industrial Engineering Department*  
 [GitHub Repository](https://github.com/ayigitdogan/Decision-Trees-Classification-Example)

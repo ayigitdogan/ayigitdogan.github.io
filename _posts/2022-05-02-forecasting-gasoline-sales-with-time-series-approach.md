@@ -10,6 +10,5 @@ This data-driven work is dedicated to investigating possible underlying reasons 
 
 [Click here to view the report](https://bu-ie-360.github.io/spring22-ayigitdogan/Forecasting_Gasoline_Sales_with_Time_Series_Approach.html). For further details, data, and code, please check the [GitHub Repository](https://github.com/ayigitdogan/Forecasting-Gasoline-Sales-with-Time-Series-Approach).
 
-*Written by Ahmet Yiğit Doğan*  
 *IE 360 - Time Series Analysis*  
 *Boğaziçi University - Industrial Engineering Department*
