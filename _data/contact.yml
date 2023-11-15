@@ -12,9 +12,14 @@
   icon: 'fab fa-goodreads'
   url:  'https://www.goodreads.com/ayigitdogan/'
 -
+  type: strava
+  icon: 'fab fa-strava'
+  url:  'https://www.strava.com/athletes/ayigitdogan'
+-
   type: spotify
   icon: 'fab fa-spotify'
   url:  'http://open.spotify.com/user/ayigitdogan'
+
 
 # type: email
 # icon: 'fas fa-envelope'
