@@ -1,6 +1,6 @@
 ---
 title: The Traces of Classic Noir Narrative in Frank Miller's Sin City
-date: 2022-11-18 14:10:00 +0800
+date: 2022-03-08 14:10:00 +0800
 categories: [Comics]
 tags: [comics theory, genre studies, neo-noir]
 render_with_liquid: false
