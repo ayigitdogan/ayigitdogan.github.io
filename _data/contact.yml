@@ -10,7 +10,7 @@
 -
   type: strava
   icon: 'fab fa-strava'
-  url:  'https://www.strava.com/athletes/ayigitdogan'
+  url:  'https://www.strava.com/athletes/ayigitdogan/'
 -
   type: goodreads
   icon: 'fab fa-goodreads'
@@ -20,9 +20,13 @@
   icon: 'fab fa-letterboxd'
   url:  'https://letterboxd.com/ayigitdogan/'
 -
+  type: behance
+  icon: 'fab fa-behance'
+  url:  'https://www.behance.net/ayigitdogan/'
+-
   type: spotify
   icon: 'fab fa-spotify'
-  url:  'http://open.spotify.com/user/ayigitdogan'
+  url:  'http://open.spotify.com/user/ayigitdogan/'
 -
 # -
 #   type: stack-overflow
