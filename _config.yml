@@ -21,10 +21,10 @@ timezone: Europe/Istanbul
 
 title: Ahmet Yiğit Doğan               # the main title
 
-tagline: Data Scientist
+tagline: Research and Teaching Assistant
 
 description: >-                        # used by seo meta and the atom feed
-  Personal website and portfolio of a machine learning enthusiast.
+  Personal website and portfolio of a graduate student from Istanbul, Boğaziçi University.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://ayigitdogan.github.io'
