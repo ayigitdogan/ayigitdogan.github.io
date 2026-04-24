@@ -20,14 +20,14 @@
   icon: 'fab fa-letterboxd'
   url:  'https://letterboxd.com/ayigitdogan/'
 -
-  type: behance
-  icon: 'fab fa-behance'
-  url:  'https://www.behance.net/ayigitdogan/'
--
-  type: spotify
-  icon: 'fab fa-spotify'
-  url:  'http://open.spotify.com/user/ayigitdogan/'
--
+#   type: behance
+#   icon: 'fab fa-behance'
+#   url:  'https://www.behance.net/ayigitdogan/'
+# -
+#   type: spotify
+#   icon: 'fab fa-spotify'
+#   url:  'http://open.spotify.com/user/ayigitdogan/'
+# -
 # -
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
